@@ -232,6 +232,15 @@ nav {
   .logo {
     width: 90px;
   }
+  .videositem{
+    width:800px !important;
+    margin-top: 50px !important;
+   
+  }
+  .yousearch{
+    margin-left:50px !important;
+  }
+
 }
 
 /*play video page****/

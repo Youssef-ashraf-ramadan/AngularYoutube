@@ -14,7 +14,11 @@ import { Video4Component } from './videos/video4/video4.component';
 import { Video5Component } from './videos/video5/video5.component';
 import { Video6Component } from './videos/video6/video6.component';
 import { Video7Component } from './videos/video7/video7.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { SearchInputComponent } from './search/components/search-input/search-input.component';
+import { SearchListComponent } from './search/components/search-list/search-list.component';
+import { SearchContainerComponent } from './search/container/search-container/search-container.component';
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -28,12 +32,17 @@ import { Video7Component } from './videos/video7/video7.component';
     Video4Component,
     Video5Component,
     Video6Component,
-    Video7Component
+    Video7Component,
+    SearchInputComponent,
+    SearchListComponent,
+    SearchContainerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule,
+    FormsModule
     
    
   ],

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { SearchContainerComponent } from './search/container/search-container/search-container.component';
 import { Video1Component } from './videos/video1/video1.component';
 import { Video2Component } from './videos/video2/video2.component';
 import { Video3Component } from './videos/video3/video3.component';
@@ -31,7 +32,8 @@ const routes: Routes = [
 {path :"واصبر-علي-ما-يقولون" , component : Video6Component},
 {path :"video6" , component : Video6Component},
 {path :"يا-عبادي-الذين-امنو-ان-ارضي-واسعه" , component : Video7Component},
-{path :"video7" , component : Video7Component}
+{path :"video7" , component : Video7Component},
+{path :"search-video" , component : SearchContainerComponent}
 
 ];
 
